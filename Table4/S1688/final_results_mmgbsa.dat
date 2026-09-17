@@ -1,0 +1,99 @@
+| Run on Thu May  7 18:41:32 2026
+|
+|Input file:
+|--------------------------------------------------------------
+|mmgbsa
+|&general
+|startfram=1,endfram=200,keep_files=2,verbose=1,netcdf=1,interval=1,
+|/
+|&gb
+|igb=2,saltcon=0.100
+|/
+|&decomp
+|idecomp=1,print_res="all",
+|dec_verbose=1,
+|/
+|
+|
+|
+|
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Solvated complex topology file:  ./model.prmtop
+|Complex topology file:           ./run/com.prmtop
+|Receptor topology file:          ./run/rec.prmtop
+|Ligand topology file:            ./run/lig.prmtop
+|Initial mdcrd(s):                ./hou30ns.cdf
+|
+|Receptor mask:                  ":1-716"
+|Ligand mask:                    ":717"
+|Ligand residue name is "S16"
+|
+|Calculations performed using 200.0 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -6169.3552               36.4090              2.5745
+EEL                     -52593.4533              152.5330             10.7857
+EGB                      -6630.5160              118.1527              8.3547
+ESURF                      207.5299                3.0645              0.2167
+
+G gas                   -58762.8085              152.3488             10.7727
+G solv                   -6422.9860              116.7591              8.2561
+
+TOTAL                   -65185.7945               71.6105              5.0636
+
+
+Receptor:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -6113.7611               36.5673              2.5857
+EEL                     -52456.0167              152.5011             10.7835
+EGB                      -6640.7444              118.1676              8.3557
+ESURF                      209.2470                3.0437              0.2152
+
+G gas                   -58569.7778              152.3410             10.7721
+G solv                   -6431.4974              116.7900              8.2583
+
+TOTAL                   -65001.2752               71.5921              5.0623
+
+
+Ligand:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                     -4.6146                2.2521              0.1592
+EEL                       -121.7011                2.6850              0.1899
+EGB                        -31.9328                0.9469              0.0670
+ESURF                        4.9677                0.0433              0.0031
+
+G gas                     -126.3157                3.5573              0.2515
+G solv                     -26.9650                0.9409              0.0665
+
+TOTAL                     -153.2808                3.4693              0.2453
+
+
+Differences (Complex - Receptor - Ligand):
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                    -50.9795                2.5375              0.1794
+EEL                        -15.7355                3.0352              0.2146
+EGB                         42.1612                2.7725              0.1960
+ESURF                       -6.6848                0.2103              0.0149
+
+DELTA G gas                -66.7150                3.6196              0.2559
+DELTA G solv                35.4764                2.7122              0.1918
+
+DELTA TOTAL                -31.2386                2.7939              0.1976
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

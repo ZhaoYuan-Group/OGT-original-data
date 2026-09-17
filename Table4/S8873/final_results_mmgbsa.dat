@@ -1,0 +1,99 @@
+| Run on Thu May  7 18:20:30 2026
+|
+|Input file:
+|--------------------------------------------------------------
+|mmgbsa
+|&general
+|startfram=1,endfram=200,keep_files=2,verbose=1,netcdf=1,interval=1,
+|/
+|&gb
+|igb=2,saltcon=0.100
+|/
+|&decomp
+|idecomp=1,print_res="all",
+|dec_verbose=1,
+|/
+|
+|
+|
+|
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Solvated complex topology file:  ../model.prmtop
+|Complex topology file:           ./run/com.prmtop
+|Receptor topology file:          ./run/rec.prmtop
+|Ligand topology file:            ./run/lig.prmtop
+|Initial mdcrd(s):                ./hou30ns.cdf
+|
+|Receptor mask:                  ":2-717"
+|Ligand mask:                    ":1"
+|Ligand residue name is "S88"
+|
+|Calculations performed using 200.0 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -6178.1803               35.5979              2.5172
+EEL                     -52495.8889              157.9673             11.1700
+EGB                      -6555.7334              128.1970              9.0649
+ESURF                      208.1555                2.3761              0.1680
+
+G gas                   -58674.0692              159.9758             11.3120
+G solv                   -6347.5779              127.0967              8.9871
+
+TOTAL                   -65021.6471               71.7537              5.0738
+
+
+Receptor:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -6114.1709               35.6947              2.5240
+EEL                     -52438.7130              159.5182             11.2796
+EGB                      -6557.0991              129.8694              9.1832
+ESURF                      209.5596                2.4004              0.1697
+
+G gas                   -58552.8839              161.5041             11.4201
+G solv                   -6347.5395              128.7246              9.1022
+
+TOTAL                   -64900.4234               71.3255              5.0435
+
+
+Ligand:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                    -15.9873                1.6817              0.1189
+EEL                        -25.8743                2.1158              0.1496
+EGB                        -49.8629                2.0431              0.1445
+ESURF                        4.7716                0.0603              0.0043
+
+G gas                      -41.8616                2.7843              0.1969
+G solv                     -45.0912                2.0435              0.1445
+
+TOTAL                      -86.9529                2.3394              0.1654
+
+
+Differences (Complex - Receptor - Ligand):
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                    -48.0221                3.0807              0.2178
+EEL                        -31.3016                9.6878              0.6850
+EGB                         51.2286                8.7659              0.6198
+ESURF                       -6.1757                0.3360              0.0238
+
+DELTA G gas                -79.3237               10.3645              0.7329
+DELTA G solv                45.0528                8.6408              0.6110
+
+DELTA TOTAL                -34.2708                3.9775              0.2813
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

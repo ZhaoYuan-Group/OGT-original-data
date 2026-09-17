@@ -1,0 +1,2 @@
+Residual_Scale_Method,Training_OOF_Residual_SD,Train_Residual_Outliers,Test_Residual_Outliers,Residual_Outlier_Criterion,Primary_AD_Method,Leverage_Used_For_AD
+5-fold training OOF residual SD,0.4521584438187418,1,0,absolute standardized residual > 3,Normalized blockwise Tanimoto fusion + Phys Euclidean,False

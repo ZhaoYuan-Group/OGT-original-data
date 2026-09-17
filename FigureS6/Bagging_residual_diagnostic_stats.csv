@@ -1,0 +1,2 @@
+Model,Residual_Scale_Method,Training_OOF_Residual_SD,Train_OOF_Residual_Outliers,Test_Residual_Outliers,Leverage_Used_For_AD,Primary_AD_Method
+Bagging,5-fold training OOF residual SD,0.5579689778031939,2,0,False,Structural distance AD

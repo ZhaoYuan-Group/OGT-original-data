@@ -1,0 +1,2 @@
+Distance_Method,k_neighbors,Threshold_Percentile,Distance_Threshold,Train_Inside_AD,Train_Outside_AD,Test_Inside_AD,Test_Outside_AD,Test_Coverage_Percent
+Normalized blockwise Tanimoto fusion + Phys Euclidean,5,95,0.9426385328298353,80,5,20,2,90.9090909090909

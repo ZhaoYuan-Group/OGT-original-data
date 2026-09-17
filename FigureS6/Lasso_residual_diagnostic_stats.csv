@@ -1,0 +1,2 @@
+Model,Residual_Scale_Method,Training_OOF_Residual_SD,Train_OOF_Residual_Outliers,Test_Residual_Outliers,Leverage_Used_For_AD,Primary_AD_Method
+Lasso,5-fold training OOF residual SD,0.4084112489453003,1,0,False,Structural distance AD

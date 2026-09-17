@@ -1,0 +1,2 @@
+Model,Residual_Scale_Method,Training_OOF_Residual_SD,Train_OOF_Residual_Outliers,Test_Residual_Outliers,Leverage_Used_For_AD,Primary_AD_Method
+MLP,5-fold training OOF residual SD,0.40456216003289946,2,1,False,Structural distance AD
